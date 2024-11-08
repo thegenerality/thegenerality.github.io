@@ -150,12 +150,32 @@
    
     <div class="container mt-4">
         <h2 class="mb-2">Publication</h2>
-        <p style="padding-bottom:20px"><a href="overview.html"><font color="blue">Highlights</font></a></p>
+        <!--p style="padding-bottom:20px"><a href="overview.html"><font color="blue">Highlights</font></a></p-->
         
         <div class="post-card-full medium-xsmall-copy" data-year="2024">
             <div class="row">
                 <div class="col-12 col-md-8">
                     <div class="post-card-full-hide color-fg-50 mb-1.5">2024</div>
+                    <div class="mb-1.5">
+                        <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
+                                href=https://arxiv.org/abs/2411.04965>BitNet a4.8: 4-bit Activations for 1-bit LLMs</a></h5>
+                        <div>
+                            <a href=https://arxiv.org/abs/2411.04965 class="color-fg-50">
+                               Recent research on the 1-bit Large Language Models (LLMs), such as BitNet b1.58, presents a promising direction for reducing the inference cost of LLMs while maintaining their performance. In this work, we introduce BitNet a4.8, enabling 4-bit activations for 1-bit LLMs. BitNet a4.8 employs a hybrid quantization and sparsification strategy to mitigate the quantization errors introduced by the outlier channels. Specifically, we utilize 4-bit activations for inputs to the attention and feed-forward network layers, while sparsifying intermediate states followed with 8-bit quantization. Extensive experiments demonstrate that BitNet a4.8 achieves performance comparable to BitNet b1.58 with equivalent training costs, while being faster in inference with enabling 4-bit (INT4/FP4) kernels. Additionally, BitNet a4.8 activates only 55% of parameters and supports 3-bit KV cache, further enhancing the efficiency of large-scale LLM deployment and inference.
+                               <br>
+                                <time datetime="2024-11-08">November 8, 2024</time>
+                            </a>
+                            <br>
+                            <tag> BitNet | 1-bit LLMs </tag> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-card-full medium-xsmall-copy" data-year="2024">
+            <div class="row">
+                <div class="col-12 col-md-8">
                     <div class="mb-1.5">
                         <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
                                 href=https://arxiv.org/abs/2410.05258>Differential Transformer</a></h5>
