@@ -158,12 +158,52 @@
                  <div class="post-card-full-hide color-fg-50 mb-1.5">2025</div>
                     <div class="mb-1.5">
                         <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
+                                href=https://arxiv.org/abs/2501.14342>Chain-of-Retrieval Augmented Generation</a></h5>
+                        <div>
+                            <a href=https://arxiv.org/abs/2501.14342 class="color-fg-50">
+                               This paper introduces an approach for training o1-like RAG models that retrieve and reason over relevant information step by step before generating the final answer. Conventional RAG methods usually perform a single retrieval step before the generation process, which limits their effectiveness in addressing complex queries due to imperfect retrieval results. In contrast, our proposed method, CoRAG (Chain-of-Retrieval Augmented Generation), allows the model to dynamically reformulate the query based on the evolving state. To train CoRAG effectively, we utilize rejection sampling to automatically generate intermediate retrieval chains, thereby augmenting existing RAG datasets that only provide the correct final answer. At test time, we propose various decoding strategies to scale the model's test-time compute by controlling the length and number of sampled retrieval chains. Experimental results across multiple benchmarks validate the efficacy of CoRAG, particularly in multi-hop question answering tasks, where we observe more than 10 points improvement in EM score compared to strong baselines. On the KILT benchmark, CoRAG establishes a new state-of-the-art performance across a diverse range of knowledge-intensive tasks. Furthermore, we offer comprehensive analyses to understand the scaling behavior of CoRAG, laying the groundwork for future research aimed at developing factual and grounded foundation models.
+                               <br>
+                                <time datetime="2025-01-24">January 24, 2025</time>
+                            </a>
+                            <br>
+                            <tag> RAG | Search </tag> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-card-full medium-xsmall-copy" data-year="2025">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="mb-1.5">
+                        <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
+                                href=https://arxiv.org/abs/2501.11110>Chain-of-Reasoning: Towards Unified Mathematical Reasoning in Large Language Models via a Multi-Paradigm Perspective</a></h5>
+                        <div>
+                            <a href=https://arxiv.org/abs/2501.11110 class="color-fg-50">
+                               Large Language Models (LLMs) have made notable progress in mathematical reasoning, yet they often rely on single-paradigm reasoning that limits their effectiveness across diverse tasks. In this paper, we introduce Chain-of-Reasoning (CoR), a novel unified framework that integrates multiple reasoning paradigms--Natural Language Reasoning (NLR), Algorithmic Reasoning (AR), and Symbolic Reasoning (SR)--to enable synergistic collaboration. CoR generates multiple potential answers using different reasoning paradigms and synthesizes them into a coherent final solution. We propose a Progressive Paradigm Training (PPT) strategy that allows models to progressively master these paradigms, culminating in the development of CoR-Math-7B. Experimental results demonstrate that CoR-Math-7B significantly outperforms current SOTA models, achieving up to a 41.0% absolute improvement over GPT-4 in theorem proving tasks and a 7.9% improvement over RL-based methods in arithmetic tasks. These results showcase the enhanced mathematical comprehensive ability of our model, achieving significant performance gains on specific tasks and enabling zero-shot generalization across tasks.
+                               <br>
+                                <time datetime="2025-01-19">January 19, 2025</time>
+                            </a>
+                            <br>
+                            <tag> Reasoning </tag> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-card-full medium-xsmall-copy" data-year="2025">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="mb-1.5">
+                        <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
                                 href=https://arxiv.org/abs/2501.07542>Imagine while Reasoning in Space: Multimodal Visualization-of-Thought</a></h5>
                         <div>
                             <a href=https://arxiv.org/abs/2501.07542 class="color-fg-50">
                                Chain-of-Thought (CoT) prompting has proven highly effective for enhancing complex reasoning in Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs). Yet, it struggles in complex spatial reasoning tasks. Nonetheless, human cognition extends beyond language alone, enabling the remarkable capability to think in both words and images. Inspired by this mechanism, we propose a new reasoning paradigm, Multimodal Visualization-of-Thought (MVoT). It enables visual thinking in MLLMs by generating image visualizations of their reasoning traces. To ensure high-quality visualization, we introduce token discrepancy loss into autoregressive MLLMs. This innovation significantly improves both visual coherence and fidelity. We validate this approach through several dynamic spatial reasoning tasks. Experimental results reveal that MVoT demonstrates competitive performance across tasks. Moreover, it exhibits robust and reliable improvements in the most challenging scenarios where CoT fails. Ultimately, MVoT establishes new possibilities for complex reasoning tasks where visual thinking can effectively complement verbal reasoning.
                                <br>
-                                <time datetime="2024-12-25">December 25, 2024</time>
+                                <time datetime="2025-01-13">January 13, 2025</time>
                             </a>
                             <br>
                             <tag> Multimodal Reasoning </tag> 
