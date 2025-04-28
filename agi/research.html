@@ -158,12 +158,51 @@
                  <div class="post-card-full-hide color-fg-50 mb-1.5">2025</div>
                     <div class="mb-1.5">
                         <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
+                                href=https://arxiv.org/abs/2504.18415>BitNet v2: Native 4-bit Activations with Hadamard Transformation for 1-bit LLMs</a></h5>
+                        <div>
+                            <a href=https://arxiv.org/abs/2504.18415 class="color-fg-50">
+                               Efficient deployment of 1-bit Large Language Models (LLMs) is hindered by activation outliers, which complicate quantization to low bit-widths. We introduce BitNet v2, a novel framework enabling native 4-bit activation quantization for 1-bit LLMs. To tackle outliers in attention and feed-forward network activations, we pro-pose H-BitLinear, a module applying an online Hadamard transformation prior to activation quantization. This transformation smooths sharp activation distributions into more Gaussian-like forms, suitable for low-bit representation. Experiments show BitNet v2 trained from scratch with 8-bit activations matches BitNet b1.58 performance. Crucially, BitNet v2 achieves minimal performance degradation when trained with native 4-bit activations, significantly reducing memory footprint and computational cost for batched inference.                               <br>
+                                <time datetime="2025-04-28">April 28, 2025</time>
+                            </a>
+                            <br>
+                            <tag> Frontier Efficiency Model | BitNet v2 | 1-bit LLMs </tag> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-card-full medium-xsmall-copy" data-year="2025">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="mb-1.5">
+                        <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
                                 href=https://arxiv.org/abs/2504.12285>BitNet b1.58 2B4T Technical Report</a></h5>
                         <div>
                             <a href=https://arxiv.org/abs/2504.12285 class="color-fg-50">
                                We introduce BitNet b1.58 2B4T, the first open-source, native 1-bit Large Language Model (LLM) at the 2-billion parameter scale. Trained on a corpus of 4 trillion tokens, the model has been rigorously evaluated across benchmarks covering language understanding, mathematical reasoning, coding proficiency, and conversational ability. Our results demonstrate that BitNet b1.58 2B4T achieves performance on par with leading open-weight, full-precision LLMs of similar size, while offering significant advantages in computational efficiency, including substantially reduced memory footprint, energy consumption, and decoding latency. To facilitate further research and adoption, the model weights are released via Hugging Face along with open-source inference implementations for both GPU and CPU architectures.
                                <br>
                                 <time datetime="2025-04-15">April 15, 2025</time>
+                            </a>
+                            <br>
+                            <tag> Frontier Efficiency Model | BitNet | 1-bit LLMs </tag> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-card-full medium-xsmall-copy" data-year="2025">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="mb-1.5">
+                        <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
+                                href=#>BitNet v2: Native 4-bit Activations for 1-bit LLMs</a></h5>
+                        <div>
+                            <a href=# class="color-fg-50">
+                               Outliers in the activations pose significant challenges for low-bit activations of  Large Language Models (LLMs). In this work, we present BitNet v2, which enables native 4-bit activations for 1-bit LLMs. To address outlier channels in the intermediate states of attention and feed-forward-network layers, we propose H-BitLinear, which applies an online Hadamard transformation before activation quantization. This transformation reshapes the sharp distribution of intermediate states into a more Gaussian-like form. Extensive experiments show that BitNet v2 with 8-bit activations matches the performance of BitNet b1.58 when training from the scratch. Moreover, BitNet v2 can be further trained to support native 4-bit activations with minimal performance drop, substantially reducing the cost of batched inference.
+                               <br>
+                                <time datetime="2025-04-17">April 17, 2025</time>
                             </a>
                             <br>
                             <tag> BitNet | 1-bit LLMs </tag> 
