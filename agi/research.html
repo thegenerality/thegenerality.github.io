@@ -152,10 +152,29 @@
         <h2 class="mb-2">Publication</h2>
         <!--p style="padding-bottom:20px"><a href="overview.html"><font color="blue">Highlights</font></a></p-->
         
-        <div class="post-card-full medium-xsmall-copy" data-year="2026">
+         <div class="post-card-full medium-xsmall-copy" data-year="2026">
             <div class="row">
                 <div class="col-12 col-md-8">
                  <div class="post-card-full-hide color-fg-50 mb-1.5">2026</div>
+                    <div class="mb-1.5">
+                        <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
+                                href=https://arxiv.org/abs/2607.21075>VibeVoice-ASR-BitNet Technical Report</a></h5>
+                        <div>
+                            <a href=https://arxiv.org/abs/2607.21075 class="color-fg-50">
+                             We present VibeVoice-ASR-BitNet, a compressed variant of VibeVoice-ASR optimized for real-time inference on edge CPUs. We apply heterogeneous quantization tailored to the computational characteristics of each stage: the VAE acoustic tokenizer uses full-pipeline INT8 quantization (I8_S) with kernel fusion and SIMD optimization, while the autoregressive language model adopts BitNet-style ternary weights (I2_S). To preserve accuracy under aggressive compression, we employ a progressive quantization-aware training strategy. For inference, we implement custom SIMD kernels and fused operators within the ggml framework targeting both ARM and x86 platforms, achieving real-time recognition with RTF &#60; 1 using as few as 3 CPU threads. VibeVoice-ASR-BitNet is 1.6-2.3x faster than comparable model sizes (~1.6 GB), with only modest accuracy degradation compared to the FP16 baseline.<br>
+                                <time datetime="2026-07-24">July 24, 2026</time>
+                            </a>
+                            <br>
+                            <tag> VibeVoice | BitNet </tag> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-card-full medium-xsmall-copy" data-year="2026">
+            <div class="row">
+                <div class="col-12 col-md-8">
                     <div class="mb-1.5">
                         <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
                                 href=https://arxiv.org/abs/2607.18110>LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks</a></h5>
